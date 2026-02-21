@@ -26,7 +26,7 @@ if(localStorage.getItem('theme')==='dark'){
 document.body.classList.add('dark');
 themeIcon.src='assets/lua.png.png';
 }else{
-themeIcon.src='assets/sol.png.png';
+themeIcon.src='assets/Sol.png.png';
 }
 themeToggle.addEventListener('click',()=>{
 document.body.classList.toggle('dark');
@@ -34,7 +34,7 @@ if(document.body.classList.contains('dark')){
 themeIcon.src='assets/lua.png.png';
 localStorage.setItem('theme','dark');
 }else{
-themeIcon.src='assets/sol.png.png';
+themeIcon.src='assets/Sol.png.png';
 localStorage.setItem('theme','light');
 }
 });
